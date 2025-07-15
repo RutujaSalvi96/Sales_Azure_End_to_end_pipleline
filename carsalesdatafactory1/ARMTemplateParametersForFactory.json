@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "carsalesdatafactory1"
+		},
+		"LS_AzureSQL_password": {
+			"value": ""
+		},
+		"LS_DataLake_accountKey": {
+			"value": ""
+		},
+		"LS_AzureSQL_properties_typeProperties_server": {
+			"value": "saleserver1.database.windows.net"
+		},
+		"LS_AzureSQL_properties_typeProperties_database": {
+			"value": "salessqldb"
+		},
+		"LS_AzureSQL_properties_typeProperties_userName": {
+			"value": "adminrutu"
+		},
+		"LS_DataLake_properties_typeProperties_url": {
+			"value": "https://salesstorageacc.dfs.core.windows.net/"
+		},
+		"LS_GIT_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		}
+	}
+}
